@@ -5,7 +5,7 @@ The purpose of the software is to predict Covid-19 with spectrograms of clinical
 
 # Screenshots
 
-![resim](https://user-images.githubusercontent.com/31356491/145189800-802b2a70-40be-4a6f-9aa2-40fa5b6e4148.png)
+![resim](https://user-images.githubusercontent.com/31356491/145204828-26395bb4-1ca3-4441-9509-b93a6f1fb733.png)
 
 # Requirements
 
