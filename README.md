@@ -26,5 +26,8 @@ The purpose of the software is to predict Covid-19 with spectrograms of clinical
 `pip install -r requirements.txt`
 
 
+`Download h5 file on https://www.kaggle.com/aimerodriguez/covid19-sound-spectograms/data and move h5 file to script directory`
+
+
 `Run main.py with Python3`
 
