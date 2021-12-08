@@ -1,0 +1,9 @@
+opencv-python
+tensorflow
+matplotlib
+numba==0.53.0
+librosa
+numpy
+sounddevice
+PyQt5
+scipy
