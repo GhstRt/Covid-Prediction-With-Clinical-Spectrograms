@@ -178,6 +178,7 @@ class Ui_MainWindow(object):
 "color: white;")
         self.predict.setFlat(False)
         self.predict.setObjectName("predict")
+        self.predict.setEnabled(0)
         self.saveb = QtWidgets.QCheckBox(self.centralwidget)
         self.saveb.setGeometry(QtCore.QRect(360, 500, 141, 31))
         font = QtGui.QFont()
@@ -307,9 +308,11 @@ class Ui_MainWindow(object):
                 self.spimg = self.file[0]
                 self.statusbar.showMessage("File Selecting And Processing Successfuly", msecs=3000)
                 self.selectedl.setText("Selected Image File: " + self.spimg)
+        self.predict.setEnabled(1)
 
     def prediction(self):
         self.rate.setText(str(1-(prediction(self.spimg)[0][0])))
+        self.predict.setEnabled(0)
 
 if __name__ == "__main__":
     import sys
