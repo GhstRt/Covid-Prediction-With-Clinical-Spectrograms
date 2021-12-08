@@ -1,9 +1,7 @@
 # Description
 
-This script uses h5 file at https://www.kaggle.com/aimerodriguez/covid19-sound-spectograms/data 
-The purpose of the software is to predict Covid-19 with spectrograms of clinical sounds. 
-
-
+This script uses h5 file at https://www.kaggle.com/aimerodriguez/covid19-sound-spectograms/data.
+The purpose of the software is to predict Covid-19 with spectrograms of clinical sounds.
 
 # Requirements
 
